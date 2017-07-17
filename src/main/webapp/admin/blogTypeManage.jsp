@@ -14,12 +14,8 @@
 
 <script type="text/javascript">
 
-	var url;
-	
-	function openBlogTypeAddDialog() {
-		$("#dlg").dialog("open").dialog("setTitle", "添加博客类别信息");
-		url = "${pageContext.request.contextPath}/admin/blogType/save.do";
-	}
+
+
 	
 	function openBlogTypeModifyDialog() {
 		var selectedRows = $("#dg").datagrid("getSelections");
