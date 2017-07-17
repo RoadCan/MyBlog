@@ -53,7 +53,7 @@ public class BloggerController {
 		Blogger blogger = bloggerService.getBloggerData();
 		modelAndView.addObject("blogger", blogger);
 		modelAndView.addObject("commonPage", "foreground/blogger/bloggerInfo.jsp");
-		modelAndView.addObject("title", "关于博主 - 罗东干的博客");
+		modelAndView.addObject("title", "关于博主 - MyBlog");
 		modelAndView.setViewName("mainTemp");
 		return modelAndView;
 	}
