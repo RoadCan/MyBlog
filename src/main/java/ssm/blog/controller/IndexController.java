@@ -93,7 +93,7 @@ public class IndexController {
 		
 		modelAndView.addObject("blogList", blogList);
 		modelAndView.addObject("commonPage", "foreground/blog/blogList.jsp");
-		modelAndView.addObject("title", "博客主页 - 罗东干的博客");
+		modelAndView.addObject("title", "博客主页 - MyBlog");
 		modelAndView.setViewName("mainTemp");
 
 		return modelAndView;
