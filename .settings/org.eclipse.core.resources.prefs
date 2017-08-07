@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/main/resources/applicationContext.xml=UTF-8
+encoding//src/main/resources/db_blog.sql=UTF-8
 encoding//src/main/resources/mybatis-config.xml=UTF-8
 encoding//src/main/resources/spring-mvc.xml=UTF-8
 encoding/<project>=UTF-8
